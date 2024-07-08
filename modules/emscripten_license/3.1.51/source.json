@@ -1,5 +1,5 @@
 {
-    "integrity": "",
+    "integrity": "sha256-LxmLhSnSlAqsB/5AB/mke+6a0DMyu2Qibr0z6/F9TWM=",
     "strip_prefix": "emscripten-3.1.51",
     "url": "https://github.com/emscripten-core/emscripten/archive/refs/tags/3.1.51.tar.gz",
     "patch_strip": 0,

@@ -97,7 +97,7 @@ EOF
   local latest_path="$root/modules/sekai-master-db/latest$full_suffix.txt"
   echo "$fq_version" > "$latest_path"
 
-  git add "$out_dir" "$metadata_path"
+  git add "$out_dir" "$metadata_path" "$latest_path"
   git --no-pager diff --staged "$metadata_path"
   git --no-pager status --short | grep '^[MARCD]'
   confirm

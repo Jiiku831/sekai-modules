@@ -80,7 +80,7 @@ EOF
 {
     "integrity": "$integrity",
     "strip_prefix": "$name-$rev",
-    "url": "${remote::-4}/archive/$rev.zip"
+    "url": "${remote::-4}/archive/$rev.zip",
     "patch_strip": 0,
     "patches": {
       "add_build_file.patch": "",

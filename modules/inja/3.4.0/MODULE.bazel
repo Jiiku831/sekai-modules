@@ -1,0 +1,4 @@
+module(
+    name = "inja",
+    version = "3.4.0",
+)

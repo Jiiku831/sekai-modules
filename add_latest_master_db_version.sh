@@ -44,8 +44,10 @@ function update () {
 
   local rev="$(git show-ref -s HEAD)"
   local full_suffix=""
+  local dash_suffix=""
   if [[ -n "$suffix" ]]; then
     full_suffix=".$suffix"
+    dash_suffix="-$suffix"
   fi
   local fq_version="$version.$count$full_suffix"
   echo "Master version: $fq_version ($rev)"
@@ -67,7 +69,8 @@ function update () {
   echo "Computed integrity: $integrity"
 
   mkdir -p "$out_dir/patches"
-  rsync -a "$root/patches" "$out_dir"
+  local latest_symlink="$root/modules/sekai-master-db/latest$dash_suffix"
+  rsync -a "$latest_symlink/patches" "$out_dir"
 
   cat << EOF > "$out_dir/MODULE.bazel"
 module(
@@ -96,6 +99,9 @@ EOF
 
   local latest_path="$root/modules/sekai-master-db/latest$full_suffix.txt"
   echo "$fq_version" > "$latest_path"
+
+  rm "$latest_symlink"
+  ln -s "$root/modules/sekai-master-db/$fq_version" "$latest_symlink"
 
   git add "$out_dir" "$metadata_path" "$latest_path"
   git --no-pager diff --staged "$metadata_path"

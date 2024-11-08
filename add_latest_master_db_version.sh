@@ -87,7 +87,8 @@ EOF
     "patch_strip": 0,
     "patches": {
       "add_build_file.patch": "",
-      "add_module_file.patch": ""
+      "add_module_file.patch": "",
+      "server_id.patch": ""
     }
 }
 EOF
@@ -103,7 +104,7 @@ EOF
   rm "$latest_symlink"
   ln -s "$root/modules/sekai-master-db/$fq_version" "$latest_symlink"
 
-  git add "$out_dir" "$metadata_path" "$latest_path"
+  git add "$out_dir" "$metadata_path" "$latest_path" "$latest_symlink"
   git --no-pager diff --staged "$metadata_path"
   git --no-pager status --short | grep '^[MARCD]'
   confirm

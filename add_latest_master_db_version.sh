@@ -102,7 +102,9 @@ EOF
   echo "$fq_version" > "$latest_path"
 
   rm "$latest_symlink"
-  ln -s "$root/modules/sekai-master-db/$fq_version" "$latest_symlink"
+  pushd "$root/modules/sekai-moster-db/"
+  ln -s "$fq_version" "$latest_symlink"
+  popd
 
   git add "$out_dir" "$metadata_path" "$latest_path" "$latest_symlink"
   git --no-pager diff --staged "$metadata_path"

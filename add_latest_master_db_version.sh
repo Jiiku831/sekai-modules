@@ -102,7 +102,7 @@ EOF
   echo "$fq_version" > "$latest_path"
 
   rm "$latest_symlink"
-  pushd "$root/modules/sekai-moster-db/"
+  pushd "$root/modules/sekai-master-db/"
   ln -s "$fq_version" "$latest_symlink"
   popd
 

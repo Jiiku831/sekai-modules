@@ -1,5 +1,5 @@
 {
-    "integrity": "sha384-diPQoKbdRBv811kz9IDT9E/ayXdPwnEdw6SZir5GTcoX5gtdMSrbHLO7SHKEjcFO",
+    "integrity": "sha384-kJICPSL3B/9jWhZnzaat3/xesLT6Vuc56e/PEl+h79m8mQpeYeu859uz3wIQCGrR",
     "strip_prefix": "sekai-master-db-diff-358ac8d3f8e751d8c3e9a7144a10a0eabc65dd3b",
     "url": "https://github.com/Sekai-World/sekai-master-db-diff/archive/358ac8d3f8e751d8c3e9a7144a10a0eabc65dd3b.zip",
     "patch_strip": 0,

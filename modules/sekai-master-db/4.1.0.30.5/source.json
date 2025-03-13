@@ -1,11 +1,11 @@
 {
-    "integrity": "sha384-1PK6B3uLe8DB3aaHUtdnEBSpKs3A+M+o75OzCqdp53FEag7DmEnvvJJAkaG5dY1Y",
-    "strip_prefix": "sekai-master-db-diff-6def4fb52384dd4e3ee3fb55afbbd321ea4a689f",
-    "url": "https://github.com/Sekai-World/sekai-master-db-diff/archive/6def4fb52384dd4e3ee3fb55afbbd321ea4a689f.zip",
-    "patch_strip": 0,
-    "patches": {
-      "add_build_file.patch": "",
-      "add_module_file.patch": "",
-      "server_id.patch": ""
-    }
+  "integrity": "sha384-1PK6B3uLe8DB3aaHUtdnEBSpKs3A+M+o75OzCqdp53FEag7DmEnvvJJAkaG5dY1Y",
+  "strip_prefix": "sekai-master-db-diff-6def4fb52384dd4e3ee3fb55afbbd321ea4a689f",
+  "url": "https://github.com/Sekai-World/sekai-master-db-diff/archive/6def4fb52384dd4e3ee3fb55afbbd321ea4a689f.zip",
+  "patch_strip": 0,
+  "patches": {
+    "add_build_file.patch": "",
+    "add_module_file.patch": "",
+    "server_id.patch": ""
+  }
 }

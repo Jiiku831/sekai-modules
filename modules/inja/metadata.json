@@ -1,17 +1,17 @@
 {
-    "homepage": "https://github.com/pantor/inja",
-    "maintainers": [
-        {
-            "email": "",
-            "github": "pantor",
-            "name": "Berschied"
-        }
-    ],
-    "repository": [
-        "github:pantor/inja"
-    ],
-    "versions": [
-        "3.4.0"
-    ],
-    "yanked_versions": {}
+  "homepage": "https://github.com/pantor/inja",
+  "maintainers": [
+    {
+      "email": "",
+      "github": "pantor",
+      "name": "Berschied"
+    }
+  ],
+  "repository": [
+    "github:pantor/inja"
+  ],
+  "versions": [
+    "3.4.0"
+  ],
+  "yanked_versions": {}
 }

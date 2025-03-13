@@ -1,0 +1,4 @@
+module(
+    name = "mlpack",
+    version = "4.5.1",
+)

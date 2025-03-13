@@ -1,0 +1,15 @@
+--- /dev/null
++++ BUILD.bazel
+@@ -0,0 +1,12 @@
++licenses(["notice"])
++
++exports_files([
++  "LICENSE.txt",
++])
++
++cc_library(
++    name = "mlpack",
++    hdrs = ["src/**/*.hpp"],
++    strip_include_prefix = "src/",
++    visibility = ["//visibility:public"],
++)

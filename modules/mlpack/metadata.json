@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/mlpack/mlpack",
+  "maintainers": [
+    {
+      "github": "mlpack",
+      "name": "mlpack"
+    }
+  ],
+  "repository": [
+    "github:mlpack/mlpack"
+  ],
+  "versions": [
+    "4.5.1"
+  ],
+  "yanked_versions": {}
+}

@@ -1,0 +1,11 @@
+{
+    "integrity": "sha384-23vKgmaIga9jLkdiAF6QspWqSOIrOAmxyGVQQuJdVODVJ891TeBwFQaHmjqf4Nwt",
+    "strip_prefix": "sekai-master-db-diff-097b9a3b4fa84f15c73bcbc18190ff7d8680aa0b",
+    "url": "https://github.com/Sekai-World/sekai-master-db-diff/archive/097b9a3b4fa84f15c73bcbc18190ff7d8680aa0b.zip",
+    "patch_strip": 0,
+    "patches": {
+      "add_build_file.patch": "",
+      "add_module_file.patch": "",
+      "server_id.patch": ""
+    }
+}

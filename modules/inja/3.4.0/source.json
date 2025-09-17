@@ -4,7 +4,7 @@
   "url": "https://github.com/pantor/inja/archive/refs/tags/v3.4.0.zip",
   "patch_strip": 0,
   "patches": {
-    "add_build_file.patch": "",
-    "add_module_file.patch": ""
+    "add_build_file.patch": "sha256-39kH0mSl1dSnAtQaleDHAISOXdvmKNkNK9OrIkxG2iM=",
+    "add_module_file.patch": "sha256-CrG+tkKK86JSr0iavUmoZP/sYFiZwyujV5O6D0YXQlw="
   }
 }

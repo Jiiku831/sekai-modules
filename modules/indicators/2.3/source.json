@@ -4,7 +4,7 @@
   "url": "https://github.com/p-ranav/indicators/archive/refs/tags/v2.3.zip",
   "patch_strip": 0,
   "patches": {
-    "add_build_file.patch": "",
-    "add_module_file.patch": ""
+    "add_build_file.patch": "sha256-9hcFqcX/jZtqr1Kq01haZdUs509OLetR0Y0zVVSW7WA=",
+    "add_module_file.patch": "sha256-Kw7rBZXqNQDKlQVDXOz+L0QBmip55OD58O+x9RU5dEw="
   }
 }

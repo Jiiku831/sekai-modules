@@ -86,9 +86,9 @@ EOF
     "url": "${remote::-4}/archive/$rev.zip",
     "patch_strip": 0,
     "patches": {
-      "add_build_file.patch": "",
-      "add_module_file.patch": "",
-      "server_id.patch": ""
+      "add_build_file.patch": "sha384-$(cat "$out_dir/patches/add_build_file.patch" | openssl dgst -sha384 -binary | openssl base64 -A)",
+      "add_module_file.patch": "sha384-$(cat "$out_dir/patches/add_module_file.patch" | openssl dgst -sha384 -binary | openssl base64 -A)",
+      "server_id.patch": "sha384-$(cat "$out_dir/patches/server_id.patch" | openssl dgst -sha384 -binary | openssl base64 -A)"
     }
 }
 EOF

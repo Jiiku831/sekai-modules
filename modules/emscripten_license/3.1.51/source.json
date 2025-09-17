@@ -4,7 +4,7 @@
   "url": "https://github.com/emscripten-core/emscripten/archive/refs/tags/3.1.51.tar.gz",
   "patch_strip": 0,
   "patches": {
-    "add_build_file.patch": "",
-    "add_module_file.patch": ""
+    "add_build_file.patch": "sha256-4DoZXSDbE3rfc4z8nmdfFR+6CKUA31VyKyvKBpOq6bY=",
+    "add_module_file.patch": "sha256-lCIIQ8bIzxvxUH4UsTTjbRfbAvIy/yeeyFTTUVYCBU0="
   }
 }

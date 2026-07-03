@@ -1,0 +1,12 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+licenses(["notice"])
+
+cc_library(
+    name = "bs-thread-pool",
+    hdrs = ["include/BS_thread_pool.hpp"],
+    strip_include_prefix = "include/",
+    visibility = ["//visibility:public"],
+)
+
+exports_files(["LICENSE.txt"])

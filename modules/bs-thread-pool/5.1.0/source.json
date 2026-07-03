@@ -1,0 +1,10 @@
+{
+  "integrity": "sha256-zkNktl1oRl1si8dkmXsxKReOClLmZFRD53SJcygPFdA=",
+  "strip_prefix": "thread-pool-5.1.0",
+  "url": "https://github.com/bshoshany/thread-pool/archive/refs/tags/v5.1.0.zip",
+  "patch_strip": 0,
+  "overlay": {
+    "BUILD.bazel": "sha256-ycIruYc9Pdr9ALKIDvnszjxBhfCdTtrmCR4+/Yu9pZM=",
+    "MODULE.bazel": "sha256-KOUA0hQ9kGoSwpEcUOMPZgRnvt/8UM0IkMuzJnxqDG4="
+  }
+}

@@ -1,0 +1,6 @@
+module(
+    name = "ctml",
+    version = "2.0.0.3",
+)
+
+bazel_dep(name = "rules_cc", version = "0.2.20")

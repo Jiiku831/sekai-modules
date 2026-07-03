@@ -1,0 +1,6 @@
+module(
+    name = "sekai-master-db",
+    version = "6.0.1.3.4.kr",
+)
+
+bazel_dep(name = "rules_cc", version = "0.2.20")

@@ -77,6 +77,8 @@ module(
     name = "sekai-master-db",
     version = "$fq_version",
 )
+
+bazel_dep(name = "rules_cc", version = "0.2.20")
 EOF
 
   cat << EOF > "$out_dir/source.json"

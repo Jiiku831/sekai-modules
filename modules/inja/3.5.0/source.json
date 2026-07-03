@@ -1,0 +1,10 @@
+{
+  "integrity": "sha256-HlcLMdK4ePEzzKWAC+/5AVWbohDi5wZJqh3LlsO02qw=",
+  "strip_prefix": "inja-3.5.0",
+  "url": "https://github.com/pantor/inja/archive/refs/tags/v3.5.0.zip",
+  "patch_strip": 0,
+  "overlay": {
+    "BUILD.bazel": "sha256-TrFONnmu+8N8nheyF6AbSTjry65mw3ENLhdGfs7ajEQ=",
+    "MODULE.bazel": "sha256-r9AhENi+y1B4qX646GKC1GPmnagY5nzhohpy+tuEGfE="
+  }
+}
